@@ -1,0 +1,57 @@
+.ticket {
+    text-align: center;
+}
+
+.ticket-text {
+    text-align: center;
+}
+
+.form {
+    width: 800px;
+    padding: 60px;
+    background-color: aliceblue;
+    margin: 0 auto;
+}
+
+.label {
+    padding: 30px;
+    color: rgb(4, 85, 112);
+}
+
+.input {
+    /* margin-left: 30px; */
+    padding: 15px;
+    width: 30%;
+    border: 2px blue solid;
+    outline: none;
+    border-radius: 5px;
+    font-size: 14px;
+
+}
+
+.shirtsize {
+    width: 250px;
+    height: 30px;
+}
+
+.tugma {
+    width: 200px;
+    height: 40px;
+    background-color: rgb(230, 146, 110);
+    color: white;
+    font-size: 17px;
+    border-radius: 20px;
+    margin-left: 600px;
+}
+
+.text {
+    text-align: center;
+}
+
+.problems {
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(112, 253, 124);
+}

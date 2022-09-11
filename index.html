@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6-dars</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+    <form class="form">
+        <h1 class="ticket">Get Your Ticket!</h1>
+        <h2 class="ticket-text">Price: $350</h2>
+        <br>
+        <label class="label" for="name">Your name</label>
+        <input class="input" type="text" name="username" id="name" placeholder="Name" required>
+        <input class="input" type="url" name="twitter" id="twitter" placeholder="Twitter / IRC" required>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <label class="label" for="Emailadress">Email adress</label>
+        <input class="input" type="email" name="usermail" id="Emailadress" placeholder="E-Mail" required>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <label class="label" for="city">Location</label>
+        <input class="input" type="text" name="city" id="city" placeholder="City" required>
+        <input class="input" type="text" name="state" id="state" placeholder="State / Province" required>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <label class="label" for="shirtsize">ShirtSize</label>
+        <!-- <input class="input" type="text" name="shirtsize" id="shirtsize" placeholder="Small" required> -->
+        <select class="shirtsize" name="shirtsize">
+            <!-- <option value ="none">Select</option> -->
+            <option value ="small">Small</option>
+            <option value ="medium">Medium</option>
+            <option value ="large">Large</option>
+        </select>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <label class="label" for="number">Card Details</label>
+        <input class="input" type="number" name="carnumber" id="number" placeholder="Card Number" required>
+        <input class="input" type="text" name="cardtype" id="card" placeholder="CVC" required>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <label class="label" for="date">Expiration</label>
+        <input class="input" type="date" name="month" id="date" placeholder="MM" required>
+        <input class="input" type="month" name="year" id="twitter" placeholder="YYYY" required>
+        <!-- <input type="number" min="1900" max="2099" step="1" value="2000" /> -->
+        <br>
+        <br>
+        <hr>
+        <br>
+        <button class="tugma" type="submit"> <b>REGISTER</b> </button>
+        <br>
+        <br>
+        <p class="text">Problems? <a class="problems" href="#">E-Mail Us!</a></p>
+    </form>
+</body>
+</html>
